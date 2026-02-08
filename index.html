@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="full-container">
+
+            <section class="up-img">
+
+                <img id="img-cima" src="assets/logo-1.gif" alt="mãos-com-dinheiro">
+            </section>
+            <section class="container">
+                <div class="up-inside-container">
+                    <div id="select1" class="div-select">
+
+                        <p id="p1">Converter <b>de</b></p>
+
+                        <select class="select-container">
+                            <option type="text">R$ Real brasileiro</option>
+                        </select>
+
+                    </div>
+
+                    <div id="select2" class="div-select">
+
+                        <p id="p2">Converter <b>para</b></p>
+                        <select class="select-container">
+                            <option type="text">R$ Real brasileiro</option>
+                            <option type="text">US$ Dóloar americano</option>
+                            <option type="text">€ Euro</option>
+                        </select>
+                    </div>
+
+                    <div id="select3" class="div-select">
+
+                        <p id="p3"><b>Valor</b></p>
+                        <input id="input-container" type="text" placeholder="R$ 0,00">
+                    </div>
+                    <div id="select4" class="div-select">
+                        <button id="button-container">Converter</button>
+                    </div>
+                </div>
+
+                <div class="inside-container">
+                    <div class="inside-img">
+
+                        <img class="img-inside-container" src="assets/brasil 2.png" alt="logo-moeda-a-converter">
+                        <p id="p5" class="p4">Real</p>
+                        <p class="value" id="p6">R$ 0</p>
+
+                        <img class="vector" class="img-inside-container" src="assets/Vector.png" alt="seta">
+
+                        <img class="img-inside-container" src="assets/estados-unidos 1.png" alt="logo-moeda-convertida">
+                        <p class="p4">Dólar</p>
+                        <p class="value" id="p8">US$ 0</p>
+
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
