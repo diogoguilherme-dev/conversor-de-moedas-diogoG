@@ -5,14 +5,20 @@ const convertedValue = document.querySelector("#p8")
 
 
 function convertValeus() {
-    
 
-const valorN = Number(valor.value)
-const result = valorN * 5.2
 
-    valueToConvert.innerText = valor.value
+    const valorN = Number(valor.value)
+    const result = valorN * 5.21
 
-    convertedValue.innerText = result
+    const valor1 = valorN.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL' });
+
+    const valor2 = result.toLocaleString('en-US', {style: 'currency', currency: 'USD' });
+    console.log(valor1)
+    console.log(valor2)
+
+    valueToConvert.innerText = valor1
+
+    convertedValue.innerText = valor2
 
 }
 
