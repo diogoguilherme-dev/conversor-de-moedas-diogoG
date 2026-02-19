@@ -26,8 +26,12 @@
 
                         <p id="p1">Converter <b>de</b></p>
 
-                        <select class="select-container">
-                            <option type="text">R$ Real brasileiro</option>
+                        <select id="convert-select" class="select-container">
+                            <option value="real">R$ Real brasileiro</option>
+                            <option value="dolar">US$ Dóloar americano</option>
+                            <option value="euro">€ Euro</option>
+                            <option value="libra">£ libra</option>
+                            <option value="bitcoin">₿ BTC</option>
                         </select>
 
                     </div>
@@ -36,10 +40,11 @@
 
                         <p id="p2">Converter <b>para</b></p>
                         <select id="curency-select" class="select-container">
-                            <option class="option" type="text" value="dolar">US$ Dóloar americano</option>
-                            <option class="option" type="text" value="euro">€ Euro</option>
-                            <option class="option" value="libra">£ libra</option>
-                            <option class="option" value="bitcoin">₿ BTC</option>
+                            <option value="dolar">US$ Dóloar americano</option>
+                            <option value="real">R$ Real brasileiro</option>
+                            <option value="euro">€ Euro</option>
+                            <option value="libra">£ libra</option>
+                            <option value="bitcoin">₿ BTC</option>
                         </select>
                     </div>
 
@@ -59,14 +64,14 @@
                 <div class="inside-container">
                     <div class="inside-img">
 
-                        <img class="img-inside-container" src="assets/brasil 2.png" alt="logo-moeda-a-converter">
-                        <p id="p5" class="p4">Real</p>
+                        <img id="img-to-convert-currency" class="img-inside-container" src="assets/real.png" alt="currency-resl">
+                        <p id="convert-currency-name" class="p4">Real</p>
                         <p class="value" id="p6">R$ 0,00</p>
 
                         <img class="vector" class="img-inside-container" src="assets/Vector.png" alt="seta">
 
-                        <img id="img-converted-currency" class="img-inside-container" src="assets/estados-unidos-1.png" alt="logo-moeda-convertida">
-                        <p id="currency-name" class="p4">Dólar</p>
+                        <img id="img-converted-currency" class="img-inside-container" src="assets/estados-unidos-1.png" alt="currency-dolar">
+                        <p id="converted-currency-name" class="p4">Dólar</p>
                         <p class="value" id="p8">US$ 0.0</p>
 
 
